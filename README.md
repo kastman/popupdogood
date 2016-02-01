@@ -1,3 +1,3 @@
+[Single Page Template for Pop UP Do Good Dinner](http://popupdogood.com)
 
-This is a compressed-commit version of
-[github.com/t413/SinglePaged](https://github.com/t413/SinglePaged)
+Template by [github.com/t413/SinglePaged](https://github.com/t413/SinglePaged)
