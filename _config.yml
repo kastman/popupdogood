@@ -18,7 +18,7 @@ highlighter: pygments
 title:       "Pop Up Do Good"
 keywords:    "Benefit, Dinner, Syria, Boston"
 description: " - A Night of Family and Food for Refugee Relief"
-source_link: "http://www.popupdogood.com"
+source_link: "http://popupdogood.com"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: UA-73152026-1
