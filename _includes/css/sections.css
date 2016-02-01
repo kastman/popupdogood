@@ -1,0 +1,16 @@
+#intro {
+  background-image: url('img/spicebazaar-med.jpg');
+}
+
+div#menu {
+  background-image: url('img/kibbeh-med.jpg');
+}
+
+h3#menu {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#intro .container, #menu .container {
+  background-color: rgba(255,255,255,.90);
+  padding: 20px;
+}
