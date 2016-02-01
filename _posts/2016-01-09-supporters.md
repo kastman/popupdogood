@@ -1,7 +1,7 @@
 ---
 title: "Supporters"
 bg: green  #defined in _config.yml, can use html color like '#0fbfcf'
-color: black   #text color
+color: white   #text color
 fa-icon: shopping-basket
 ---
 
