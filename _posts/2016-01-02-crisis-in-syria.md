@@ -7,6 +7,22 @@ fa-icon: life-buoy
 
 ## Crisis in Syria
 
+As chefs and cooks, we have the tremendous privilege of cooking for our
+community in a restaurant setting. We have the blessing of quality ingredients
+and an intrigued public who allow us to share our art with their support.
+Through this abundance, however, there is real crisis. War torn Syria has forced
+11 million to leave their homeland in search of security. Hunger is prevalent
+and basic necessities are difficult to acquire. How can we help from so far
+away?
+
+An easy answer to a complicated question: Break bread. Gather around the table.
+Share food inspired by the cuisine of Syria.
+
+For one night, we will come together as family and open our hearts to those in
+need. All proceeds from ticket sales will go directly to the American Refugee
+Committee's efforts to provide food, clothing, hygiene kits, education and
+emergency shelter for Syrian families fleeing violence.
+
 All proceeds from the event will be donated to the [American Refugee Committee's
 effort](http://www.arcrelief.org/site/PageServer?pagename=programs_syria) to
 provide refuge and shelter for people displaced in the current crisis in Syria
