@@ -20,9 +20,9 @@ html { box-sizing: border-box; }
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
   nav .p-{{id}} { border-color: {{ bg }}; }
-  #{{id}} { background-color: {{ bg }} ; color: {{ fg }}; }
-  #{{id}} a { color: {{ fg }}; }
-  #{{id}} .sectiondivider { color: {{ bg }}; }
+  #{{id}}-section { background-color: {{ bg }} ; color: {{ fg }}; }
+  #{{id}}-section a { color: {{ fg }}; }
+  #{{id}}-section .sectiondivider { color: {{ bg }}; }
 {% endfor %}
 
 
