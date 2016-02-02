@@ -36,4 +36,7 @@ and Jordan.
 * **7.6 million** are still inside Syria
 * **2.6 million** Syrian children are out of school
 
-ARC has worked in Syria and Jordan since 2013
+ARC has worked in Syria and Jordan since 2013. If you are unable to join us for
+the evening, please consider [donating directly](https://secure2.convio.net/refc/site/Donation2?2561.donation=form1&idb=1387963094&df_id=2561&amp;df_id=2561&amp;DONATION_LEVEL_ID_SELECTED=1&amp;2561.donation=root)!
+
+<a href="https://secure2.convio.net/refc/site/Donation2?2561.donation=form1&idb=1387963094&df_id=2561&amp;df_id=2561&amp;DONATION_LEVEL_ID_SELECTED=1&amp;2561.donation=root"><img src="img/arcLogo_pms5757.jpg" id="arcLogo"/></a>

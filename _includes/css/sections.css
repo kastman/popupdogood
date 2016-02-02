@@ -1,16 +1,44 @@
-#intro {
+#intro-section {
   background-image: url('img/spicebazaar-med.jpg');
 }
 
-div#menu {
+div#menu-section {
   background-image: url('img/kibbeh-med.jpg');
 }
 
-h3#menu {
+/*h3#menu {
   background-color: rgba(255, 255, 255, 0);
-}
+}*/
 
-#intro .container, #menu .container {
+#intro-section .container, #menu-section .container {
   background-color: rgba(255,255,255,.90);
   padding: 20px;
+}
+
+#arcLogo {
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#supporters-section ul {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#supporters-section ul li {
+  float: left;
+}
+
+#supporters-section ul img {
+  max-height: 110px;
+  max-width: 110px;
+  padding: 10px;
+}
+
+.supporters-gallery {
+  margin-left: auto;
+  margin-right: auto;
 }
