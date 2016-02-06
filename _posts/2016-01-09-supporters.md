@@ -12,7 +12,10 @@ the [American Refugee Committee](https://secure2.convio.net/refc/site/Donation2?
 We would also like to thank the many generous supporters who are donating their
 time and resources so that we can maximize our gift to the ARC:
 
+* [![AP Wines](img/apwine.png)](http://www.apwineimports.com/)
+* [![Jack's Abby](img/jacksabby.png)](http://jacksabby.com/)
 * [![Mei Mei](img/meimei.png)](http://www.meimeiboston.com/)
+* [![Oleana](img/oleana.png)](http://oleanarestaurant.com)
 * [![Reserve](img/reserve.png)](https://reserve.com/)
 * [![Sarma Restaurant](img/sarma.png)](http://www.sarmarestaurant.com/)
 * [![Sevan Bakery](img/sevan.png)](http://www.sevanboston.com)
