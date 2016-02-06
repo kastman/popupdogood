@@ -20,3 +20,4 @@ time and resources so that we can maximize our gift to the ARC:
 * [![Sarma Restaurant](img/sarma.png)](http://www.sarmarestaurant.com/)
 * [![Sevan Bakery](img/sevan.png)](http://www.sevanboston.com)
 * [![Sofra Bakery](img/sofra.png)](http://www.sofrabakery.com/)
+* [![Townsman](img/townsman.png)](http://townsmanboston.com/)
