@@ -1,63 +1,294 @@
----
----
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
-	<meta name="keywords" content="{{ site.keywords }}">
-	<meta name="description" content="{{ site.description }}">
+  <title>Pop Up Do Good</title>
+	<meta name="keywords" content="Benefit, Dinner, Syria, Boston">
+	<meta name="description" content=" - A Night of Family and Food for Refugee Relief">
   <link rel="stylesheet" href="combo.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
-	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+  
+	
 </head>
 <body>
   <div id="main">
 
     <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="#{{id}}-section">{{node.title}}</a></li>
-      {% endfor %}
+      
+        
+        <li class="p-intro"><a href="#intro-section">home</a></li>
+      
+        
+        <li class="p-crisis-in-syria"><a href="#crisis-in-syria-section">Crisis in Syria</a></li>
+      
+        
+        <li class="p-menu"><a href="#menu-section">Menu</a></li>
+      
+        
+        <li class="p-tickets"><a href="#tickets-section">Tickets</a></li>
+      
+        
+        <li class="p-location"><a href="#location-section">Location</a></li>
+      
+        
+        <li class="p-chefs"><a href="#chefs-section">About Us</a></li>
+      
+        
+        <li class="p-supporters"><a href="#supporters-section">Supporters</a></li>
+      
     </ul></nav>
 
 
-    {% for page in site.posts reversed %}
-      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-      <div id="{{id}}-section" class="section p-{{id}}">
-        {% if page.icon %}
-        <div class="subtlecircle sectiondivider imaged">
-          <img src="{{page.icon}}" alt="section icon" />
-          <h5 class="icon-title">{{ page.title }}</h5>
+    
+      
+      <div id="intro-section" class="section p-intro">
+        
+        <div class="container center">
+          <h1 class="text-purple" id="pop-up-do-good">Pop UP! Do Good</h1>
+
+<h2 class="text-purple" id="benefit-for-syrian-refugee-relief">Benefit for Syrian Refugee Relief</h2>
+
+<p><span class="fa-stack subtlecircle" style="font-size:100px; background:rgba(255,166,0,0.1)">
+  <i class="fa fa-circle fa-stack-2x text-white"></i>
+  <i class="fa fa-heart-o fa-stack-1x text-orange"></i>
+</span></p>
+
+<h3 id="please-join-us-for-a-family-style-dinner-featuring-the-flavors-of-syria">Please join us for a family style dinner featuring the flavors of Syria.</h3>
+
+<h3 id="monday-february-22nd-at-mei-mei-restaurant">Monday, February 22nd at Mei Mei Restaurant</h3>
+
+<h3 id="all-proceeds-benefit-the-american-refugee-committee-syria-project">All proceeds benefit the American Refugee Committee: Syria Project.</h3>
+
+<h3 id="tickets-are-70-reservations-available-through-the-reserve-app-see-instructionstickets-below-for-tickets">Tickets are $70. Reservations available through the Reserve App, see <a href="#tickets">instructions</a> below for tickets!</h3>
+
         </div>
-        {% elsif page.fa-icon %}
+      </div>
+    
+      
+      <div id="crisis-in-syria-section" class="section p-crisis-in-syria">
+        
         <div class="subtlecircle sectiondivider faicon">
           <span class="fa-stack">
             <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
+            <i class="fa fa-life-buoy fa-stack-1x"></i>
           </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
+          <h5 class="icon-title">Crisis in Syria</h5>
         </div>
-        {% endif %}
-        <div class="container {{ page.style }}">
-          {{ page.content }}
+        
+        <div class="container ">
+          <h2 id="crisis-in-syria">Crisis in Syria</h2>
+
+<p>As chefs and cooks, we have the tremendous privilege of cooking for our
+community in a restaurant setting. We have the blessing of quality ingredients
+and an intrigued public who allow us to share our art with their support.
+Through this abundance, however, there is real crisis. War torn Syria has forced
+11 million to leave their homeland in search of security. Hunger is prevalent
+and basic necessities are difficult to acquire. How can we help from so far
+away?</p>
+
+<p>An easy answer to a complicated question: Break bread. Gather around the table.
+Share food inspired by the cuisine of Syria.</p>
+
+<p>For one night, we will come together as family and open our hearts to those in
+need. All proceeds from ticket sales will go directly to the American Refugee
+Committee’s efforts to provide food, clothing, hygiene kits, education and
+emergency shelter for Syrian families fleeing violence.</p>
+
+<p>All proceeds from the event will be donated to the <a href="http://www.arcrelief.org/site/PageServer?pagename=programs_syria">American Refugee Committee’s
+effort</a> to
+provide refuge and shelter for people displaced in the current crisis in Syria
+and Jordan.</p>
+
+<h3 id="by-the-numbers">By The Numbers</h3>
+
+<ul>
+  <li><strong>11 million</strong> Syrians have fled their homes</li>
+  <li><strong>4 million</strong> are living in the neighboring countries of Turkey, Lebanon, and Jordan</li>
+  <li><strong>7.6 million</strong> are still inside Syria</li>
+  <li><strong>2.6 million</strong> Syrian children are out of school</li>
+</ul>
+
+<p>ARC has worked in Syria and Jordan since 2013. If you are unable to join us for
+the evening, please consider <a href="https://secure2.convio.net/refc/site/Donation2?2561.donation=form1&amp;idb=1387963094&amp;df_id=2561&amp;df_id=2561&amp;DONATION_LEVEL_ID_SELECTED=1&amp;2561.donation=root">donating directly</a>!</p>
+
+<p><a href="https://secure2.convio.net/refc/site/Donation2?2561.donation=form1&amp;idb=1387963094&amp;df_id=2561&amp;df_id=2561&amp;DONATION_LEVEL_ID_SELECTED=1&amp;2561.donation=root"><img src="img/arcLogo_pms5757.jpg" id="arcLogo" /></a></p>
+
         </div>
       </div>
-    {% endfor %}
+    
+      
+      <div id="menu-section" class="section p-menu">
+        
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-cutlery fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">Menu</h5>
+        </div>
+        
+        <div class="container ">
+          <h3 id="menu">Menu</h3>
+
+<p>Menu will feature a three-course selection of family-style meze,
+hearty vegetable &amp; kabob selections, and something sweet to finish. Each course
+will feature a beverage pairing.</p>
+
+<p>Dishes are inspired by the intensely fragrant and colorful spices used in Syrian
+cuisine. We will use this as our guide and take some playful twists along the
+way. Please join us for delicious food and conversation, and make some friends
+along the way. Pop UP and do good!</p>
+
+        </div>
+      </div>
+    
+      
+      <div id="tickets-section" class="section p-tickets">
+        
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-ticket fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">Tickets</h5>
+        </div>
+        
+        <div class="container ">
+          <p>Pop up reservations/tickets are now ready! Tickets to the dinner are $70. We
+have partnered with the Reserve App, so to save your place:</p>
+
+<ol>
+  <li>Download the <a href="http://t.sidekickopen36.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XZs4XyGbqN8qCmpdRrWSCVQBb2Y56dRNgf72ZRFx02?t=http%3A%2F%2Ftry.reserve.com%2Fvenue_landing.html%3Futm_source%3Dmei_mei_bos%26utm_medium%3Dbanner%26utm_campaign%3Dwidget_banner%26venue_name%3DMei%2BMei%26venue_img_name%3DBOS_Mei_Mei.png&amp;si=5190476928122880&amp;pi=1bb5aa9b-3c58-44e0-e41e-641e45e032f5">Reserve app</a></li>
+  <li>Book your spot at <strong>Mei Mei</strong> for <strong>February 22nd at 7pm</strong></li>
+  <li>Please make a note that you’re coming for the pop up by entering “<strong>refugee relief benefit</strong>” in the notes box.</li>
+</ol>
+
+        </div>
+      </div>
+    
+      
+      <div id="location-section" class="section p-location">
+        
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-map-marker fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">Location</h5>
+        </div>
+        
+        <div class="container ">
+          <h2 id="location">LOCATION</h2>
+
+<p><img src="img/meimei.png" alt="Mei Mei Logo" height="150" width="150" style="float: right;" /></p>
+
+<p>Mei Mei Kitchen</p>
+
+<p>506 Park Drive, Boston, MA 02215 (slightly around the corner on Buswell Street)</p>
+
+<p>Street parking is available on our side of Buswell Street and many of the surrounding blocks.</p>
+
+<p>Metered parking is available on Beacon Street and St. Mary’s Street.</p>
+
+<p>The restaurant is just a few blocks from BU Central (Green B Line), St. Mary’s (Green C Line) and Fenway (Green D Line).</p>
+
+<p><img src="img/mm-map.png" alt="Mei Mei" /></p>
+
+        </div>
+      </div>
+    
+      
+      <div id="chefs-section" class="section p-chefs">
+        
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-group fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">About Us</h5>
+        </div>
+        
+        <div class="container ">
+          <h2 id="the-chefs-and-cooks">The Chefs and Cooks</h2>
+
+<p>Mary Kastman and her cook pals from all around the city are executing this
+event.  Mary moved to Boston in 2011 from the great state of Wisconsin (Go Pack,
+Go!) and jumped right into eastern Mediterranean cuisine at Cambridge
+Oleana restaurant. For three years she worked closely with Ana Sortun, Cassie
+Piuma and Cara Chigazola learning the nuances of spice and the middle eastern
+pantry. Currently, Mary continues to work with Piuma at Sarma enriching her
+knowledge of eastern Mediterranean food. Most days you can find her in the heart
+of the action at Sarma’s Mezze bar.</p>
+
+<p>For more information, email <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#114;&#121;&#064;&#112;&#111;&#112;&#117;&#112;&#100;&#111;&#103;&#111;&#111;&#100;&#046;&#099;&#111;&#109;">Mary Kastman</a></p>
+
+        </div>
+      </div>
+    
+      
+      <div id="supporters-section" class="section p-supporters">
+        
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-shopping-basket fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">Supporters</h5>
+        </div>
+        
+        <div class="container ">
+          <p>If you aren’t able to attend the dinner, please consider donating directly to
+the <a href="https://secure2.convio.net/refc/site/Donation2?2561.donation=form1&amp;idb=1387963094&amp;df_id=2561&amp;df_id=2561&amp;DONATION_LEVEL_ID_SELECTED=1&amp;2561.donation=root">American Refugee Committee</a>.</p>
+
+<p>We would also like to thank the many generous supporters who are donating their
+time and resources so that we can maximize our gift to the ARC:</p>
+
+<ul>
+  <li><a href="http://www.apwineimports.com/"><img src="img/apwine.png" alt="AP Wines" /></a></li>
+  <li><a href="http://jacksabby.com/"><img src="img/jacksabby.png" alt="Jack's Abby" /></a></li>
+  <li><a href="http://www.meimeiboston.com/"><img src="img/meimei.png" alt="Mei Mei" /></a></li>
+  <li><a href="http://oleanarestaurant.com"><img src="img/oleana.png" alt="Oleana" /></a></li>
+  <li><a href="https://reserve.com/"><img src="img/reserve.png" alt="Reserve" /></a></li>
+  <li><a href="http://www.sarmarestaurant.com/"><img src="img/sarma.png" alt="Sarma Restaurant" /></a></li>
+  <li><a href="http://www.sevanboston.com"><img src="img/sevan.png" alt="Sevan Bakery" /></a></li>
+  <li><a href="http://www.sofrabakery.com/"><img src="img/sofra.png" alt="Sofra Bakery" /></a></li>
+</ul>
+
+        </div>
+      </div>
+    
 
 
     <div id="footer" class="section text-white">
       <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
+        
+        
+<p><a href="https://github.com/t413/SinglePaged">Template Design by Tim O’Brien</a>
+—
+this site is <a href="http://popupdogood.com">open source</a></p>
+
+
       </div>
     </div>
   </div>
 
-{% include analytics.html %}
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-73152026-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
